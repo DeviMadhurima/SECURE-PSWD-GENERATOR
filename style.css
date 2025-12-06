@@ -1,0 +1,53 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  color: #333;
+  text-align: center;
+  padding: 40px;
+}
+
+/* Title */
+h1 {
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+/* Labels and inputs */
+label {
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+input[type="number"] {
+  padding: 5px;
+  width: 60px;
+  text-align: center;
+}
+
+/* Button styling */
+button {
+  background: #1f2937;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #4b5563;
+}
+
+/* Output box */
+pre {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-top: 20px;
+  font-size: 18px;
+  border-radius: 5px;
+}
